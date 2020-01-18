@@ -13,6 +13,10 @@
 		9BA9FD4E23D26E9F000A7509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9FD4C23D26E9F000A7509 /* Main.storyboard */; };
 		9BA9FD5023D26EA0000A7509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9FD4F23D26EA0000A7509 /* Assets.xcassets */; };
 		9BA9FD5323D26EA0000A7509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA9FD5123D26EA0000A7509 /* LaunchScreen.storyboard */; };
+		9BA9FD5C23D26F11000A7509 /* CityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9FD5B23D26F11000A7509 /* CityTableViewController.swift */; };
+		9BA9FD5E23D27148000A7509 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9FD5D23D27148000A7509 /* SwiftyJSON.swift */; };
+		9BA9FD6123D271E0000A7509 /* WeatherURLmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9FD6023D271E0000A7509 /* WeatherURLmanager.swift */; };
+		9BA9FD6323D275C5000A7509 /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA9FD6223D275C5000A7509 /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		9BA9FD4F23D26EA0000A7509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BA9FD5223D26EA0000A7509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA9FD5423D26EA0000A7509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BA9FD5B23D26F11000A7509 /* CityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewController.swift; sourceTree = "<group>"; };
+		9BA9FD5D23D27148000A7509 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		9BA9FD5F23D27169000A7509 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		9BA9FD6023D271E0000A7509 /* WeatherURLmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherURLmanager.swift; sourceTree = "<group>"; };
+		9BA9FD6223D275C5000A7509 /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 		9BA9FD4523D26E9F000A7509 /* Weather app */ = {
 			isa = PBXGroup;
 			children = (
+				9BA9FD5A23D26EC4000A7509 /* New Group */,
 				9BA9FD4623D26E9F000A7509 /* AppDelegate.swift */,
 				9BA9FD4823D26E9F000A7509 /* SceneDelegate.swift */,
 				9BA9FD4A23D26E9F000A7509 /* ViewController.swift */,
@@ -63,8 +73,20 @@
 				9BA9FD4F23D26EA0000A7509 /* Assets.xcassets */,
 				9BA9FD5123D26EA0000A7509 /* LaunchScreen.storyboard */,
 				9BA9FD5423D26EA0000A7509 /* Info.plist */,
+				9BA9FD6023D271E0000A7509 /* WeatherURLmanager.swift */,
 			);
 			path = "Weather app";
+			sourceTree = "<group>";
+		};
+		9BA9FD5A23D26EC4000A7509 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9FD5B23D26F11000A7509 /* CityTableViewController.swift */,
+				9BA9FD5D23D27148000A7509 /* SwiftyJSON.swift */,
+				9BA9FD5F23D27169000A7509 /* SwiftyJSON.h */,
+				9BA9FD6223D275C5000A7509 /* CityTableViewCell.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA9FD6123D271E0000A7509 /* WeatherURLmanager.swift in Sources */,
+				9BA9FD6323D275C5000A7509 /* CityTableViewCell.swift in Sources */,
+				9BA9FD5C23D26F11000A7509 /* CityTableViewController.swift in Sources */,
 				9BA9FD4B23D26E9F000A7509 /* ViewController.swift in Sources */,
 				9BA9FD4723D26E9F000A7509 /* AppDelegate.swift in Sources */,
+				9BA9FD5E23D27148000A7509 /* SwiftyJSON.swift in Sources */,
 				9BA9FD4923D26E9F000A7509 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
